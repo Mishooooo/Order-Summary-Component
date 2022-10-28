@@ -17,7 +17,7 @@ display: block;}
       box-sizing: inherit;
     }
 
-body { background-image: URL('pattern-background-desktop.svg');
+body { background-image: URL('images/pattern-background-desktop.svg');
    
     height:100vh;
     display: flex;
