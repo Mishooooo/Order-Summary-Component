@@ -1,0 +1,175 @@
+
+
+
+html{font-size: 1em;
+
+
+
+
+
+
+    box-sizing: border-box;
+display: block;}
+    
+
+
+
+body { background-image: URL('images/pattern-background-desktop.svg');
+   
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding: 0px; 
+    margin: 0px;
+    background-size: 110%;
+  background-color:#E0E8FF;
+}
+
+.main_container {
+   
+width: 26rem;
+height:40rem;
+
+
+background: #FFFFFF;
+box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+border-radius: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+    width: 100%;
+    display: block;
+  }
+.img_card {
+    position: relative;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+
+
+
+p{
+    position: relative;
+
+
+font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+/* or 162% */
+padding-right: 24px;
+padding-left: 24px;
+text-align: center;
+
+color: #717FA6;
+
+}
+h1 {
+ position: relative;
+ 
+    
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.7em;
+    line-height: 2.9em;
+    margin-bottom: -18px;
+    margin-top: 30px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #1F2E55; 
+}
+#price {
+
+    background: #F7F9FF;
+    border-radius: 11px;;
+    margin-top: 1rem;
+margin-left: 3rem;
+margin-right: 3rem;
+height: 5rem;
+
+align-items: center;
+display: flex;
+
+}
+#music_logo {
+    max-width: 3rem;;
+    padding-left: 12px;
+}
+section {
+    position: absolute;
+height: 21px;
+margin-left: 4.7rem;
+top: 28.8rem;
+
+font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 21px;
+}
+span {
+    
+position: absolute;
+height: 21px;
+
+margin-left: 4.7rem;
+top: 30.1rem;
+
+font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 21px;
+color: #717FA6;
+}
+#button_to_change{
+   
+    margin-left:11rem;
+    font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+
+color: #766CF1;
+display: block;
+background-color: transparent;
+border: 0;
+cursor: pointer;
+}
+#button_to_pay {
+    margin: 2rem;
+  border: none;
+padding:6.1rem;
+padding-top: 12px;
+padding-bottom: 12px;
+color: white;
+background: #766CF1;
+box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+border-radius: 11px;
+cursor: pointer;
+pointer-events:fill;
+box-shadow: 0px 2rem 2rem rgba(56, 42, 225, 0.190291);
+  
+}
+#button_to_cancel {
+    font-family: 'Red Hat Display';
+
+font-weight: 900;
+font-size: 15px;
+
+    background: none;
+    color: #1F2E55;
+    border-style: none;
+    cursor: pointer;
+    pointer-events: visible;
+}
