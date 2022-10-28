@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=6.0"/>
+    <title>Order-summery-component</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png">
+</head>
+<body>
+
+    <div class="main_container">
+       <div class="img_card"> 
+        <img class='img_card' src="images/illustration-hero.svg" alt="ilustration">
+       </div>
+       <div class="text_container">
+       <h1>Order Summary</h1>
+       <p>You can now listen to millions of songs,<br> audiobooks, and podcasts on any device <br> anywhere you like!</p>
+        </div>
+        <div id="price">
+            <img id="music_logo" src="images/icon-music.svg" alt="'music logo">
+            <section>Annual Plan</section>
+            <span>$59.99/year</span>
+            <button id="button_to_change">Change</button>
+        </div>
+       <div>
+        <button id="button_to_pay"> Proceed to Payment</button>
+       </div>
+       <div> <button id="button_to_cancel">Cancel Order</button></div>
+    </div>
+   
+<script>
+  var btn =   document.getElementById("button_to_pay")
+   
+    btn.addEventListener('mouseover', function(){
+        confirm('Are you sure you want to buy Annual Plan?')
+    prompt(' do you like our site?')
+    })
+   
+</script>
+</body>
+</html>
